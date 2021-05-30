@@ -1,0 +1,36 @@
+Q) what is javascript?
+A) 1) javascript is text based programming language 
+      which used in both client and server side
+   2) javascript improves the user experience of the 
+      webpage by converting the static page into inter-
+      -active one
+   3)  javascript adds the behaviour in webpage
+
+Q) what is variable?
+A) ex:- var my_var="sabyasachi";
+   here var is variable(key) ,and my_var is variable name whatever we assign
+   and after the assignment value of the variable
+
+Q) naming convention of variable?   
+A) 1)the first character must be a letter or an underscore(_) or an 
+   dollar($).you cant't use a number as the first character
+   2)the rest of the variable name can include any letter,any number,or
+     the underscore.can't use any other character,including spaces
+   3)variable name are case sensitive  
+   4)no limit of the length of the variable name
+   5)you can't use one of javascript reserved words as a variable name.
+
+Q) datatype in javascript?
+A) six datatype that are primitives,
+   undefined: typeof instance==="undefined"
+   Boolean: typeof instance==="boolean"
+   Number: typeof instance==="number"
+   String: typeof instance==="string"
+   BigInt: typeof instance==="bigint"
+   Symbol: typeof instance==="symbol"
+
+Q) what is NaN ?
+A) NaN is a property of the global object
+   In other words ,it is a variable in globalscobe
+   The initial value of NaN is not a number
+   

@@ -1,0 +1,45 @@
+Expressions and operator
+1)Assignment operator
+ .an aasignment operator assigns a value to its left operand
+ .based on the value of its right operand
+ .the simple assignment operator is equal(=)
+
+ 2)arithmetic operator
+ .an arithmetic operator takes numericl values
+ (either literal or variables) as their operands and 
+ returns a single numeriacal value
+
+3)Increment and Decrement operator
+ .Increment: x++(postfix) or ++x(prefix);
+ .Decrement: x--(postfix) or --x(prefix);
+ .post Increment ,Increments the value and returns the value before incrementing
+ .prefix Increment,Increments the value  and returns the value after the increamenting
+
+ 4)comparison operator
+  .a comparison operator compares its operands and returns a logical
+   value based on whether the comparison is tree
+
+ 5)Logical operator
+  .logical operator are typically used with boolean (logical) values;
+  .when they are ,they return a boolean value  
+
+  logical AND(&&)
+  .the logical AND (&&) operator(logical conjuction) for a set of 
+   operand is true if and only if all its operand are true
+
+  logical OR(||)
+  .the logical or (||) operator (logically disjunction) for a set of 
+   operands is true if and only if one or more of its operands is true
+
+  logical NOT(!)
+  .the logical not (!) operator (logical complement,negation)
+   takes truth to falsity and vice versa
+
+ 6)String operator
+  .the concatenation operator(+) concatenates two string values together
+   returning another string that is the union of the two operand strings
+
+
+Q)difference betwwen == vs ===?   
+ ==)it compare only the value of variables;
+ ===) it compare value as well as data type;
