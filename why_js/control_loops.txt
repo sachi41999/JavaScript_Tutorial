@@ -1,0 +1,32 @@
+control statements and loops in js:
+if..else
+switch statement
+while loop
+do-while loop
+for loop
+for in loop
+for of loop
+conditional(ternary) operator
+
+1) if..else statement:
+   the if statement executes a statement if a specified condition is truthly.
+   if the condition is falsy, another statement can be executed
+
+2) conditional(ternary) operator
+   the conditional(ternary) operator is the only javascript operator
+   that takes only three operands
+
+3) switch statement
+   evaluate an expression ,matching the expression value to an
+   case clause and executes statements associated with that case.
+
+4) while loop
+   the while loop creates a loop that executes a specified statement
+   as long as the test condition evaluates to true.
+5) do-while loop
+   do while loop executes statement at least once whatever the condition is false or true        
+
+6)for loop
+  for(initializer;condition;increment){
+      statement
+  }
