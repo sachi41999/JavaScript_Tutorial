@@ -1,0 +1,50 @@
+1) function definition
+ .a js function is block of code designed to perform a particular task
+ .before we use a function,we need to define it
+ .a function definition(also called a function declaration,or function statement)
+  consist of the function keyword,followed by:
+ .the name of the function .
+ .a list of parameters to the function,enclosed in parentheses and seperated by commas.
+ .the javascript statements that define the function,enclosed in curly brackets
+
+ general function syntax:
+ function functionname(){
+     statements
+ }
+
+2) calling function
+  .defining a function does not execute it.
+  .a javascript fucntion is executed when "something" invokes it 
+
+Q) what is the difference between function parameter vs function definition
+A) function parameters are the names listed in the fucntion's definition
+   function arguments are the real values passed to the function
+
+Q) why function?
+A) you can reuse code:define the code once,and use its many times
+   you can use the same code many times with different arguments,
+   to produce different results
+
+   or 
+
+   a function is a group of reusable code which can be called anywhere
+   in your program. this eliminates the need of writing the same code
+   again and again
+
+4) function expression
+   function expression simply means create a function and put it into the variable
+
+5) return keyword
+   when js reaches a return statement
+   the function will stop executing
+
+   function often compute a return values
+   the return value is returned back to the caller
+
+6) anonymous function
+   .a function expression is similar to and has the same syntax
+    as a function declaration one can define "named "
+    fucntion expression (where the name of the expression might
+    be used in the call stack for example)
+    or "anonymous" function expressions.
+            
