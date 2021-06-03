@@ -1,0 +1,25 @@
+Q) ECMAscript
+A) ECMAscript is a general purpose programming language,standardised by Ecma
+   javascript is an implementation of an Ecma
+
+Now its time for modern javascript 😃😃
+🤠 features of ECMAscript 2015 also known as ES6
+
+1) Let vs Const vs Var
+  .In var we initialize ,update the same variable again and again 
+  .the scope of js variable declared with var is its current execution context
+
+  .the let statement declares local variable in a block scope.it is similar to var ,in that 
+   we can optionally initialize the variable
+
+   .const statement values can be assigned once and they cannot be reassigned
+   .the scope statement works similar to let statements
+
+2) template literals(template strings)  
+   .Template literals are string literals allowing embedded expressions. You can use multi-line
+    strings and string interpolation features with them.
+
+3) arrow function
+  .an arrow function expression is a compact alternative to a traditional function expression
+   but is limited and can't used in all situation
+  .if we need to use this or super keyword then we can't use arrow function

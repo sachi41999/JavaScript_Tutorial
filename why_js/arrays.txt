@@ -1,0 +1,69 @@
+when we use var,let,const ,we stored only one value at a time
+when we feel like storing multiple values in oue variable the
+instead of var,let,const,we will us an array
+
+In javascript we have an array class , and arrays are the prototype of this class.
+
+in javascript we store hetrogenous value in array whatever datatype we store all in single array
+
+.) traversal in an array
+  navigate through an array
+  if we want to get the single data at a time and also
+  if we want to change the data
+
+.) searching and filter in an array
+  1) indexOf()
+    return the first(least) index of an element within the array equal
+    to an element ,or -1 if none is found.it search the element
+    from the 0th index number
+
+  2)lastindexof()
+    returns the last ocurrance of that element
+    it search the element from last index
+    or it gives -1 if not found
+
+  3)includes()
+   determines whether the array contains a value
+   returning true or false as appropriate
+   it always search the element in forward direction
+
+  4)find element(callback())
+   return the found element in the aray,if some in the
+   array satisfies the testing fucntion or undefined if not found
+   only problem is that it return only on element
+
+  5)  findindex()
+    it return the found index of element 
+
+  6) filter()
+    return a new array containing all elements of the calling
+    array for which the provided filtering function returns true
+    if not found then it gives empty array
+
+  7)sort()
+   it only work on string
+   when u are sorting the integer it gives u unorderd result
+
+.)CRUD perform
+ 1)push()
+  the push method adds one or more elements to the
+  end of an array and returns the new length of the array
+
+ 2)unshift()
+  the unshift method adds one or more elements to the 
+  beginning of the array and returns new length of the aaray
+
+ 3)pop()
+  the pop method removes the last element from an array and returnsthat element .this method changes the length of an array
+
+
+.)Map(),reduce(),filter()
+ 1) map()
+   return element for newarray,after executing something
+   return a new array containing the result of calling A
+   function on every element in this array
+   
+   it return the array without mutating the original array
+
+        
+  
