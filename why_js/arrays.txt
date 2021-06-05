@@ -65,5 +65,8 @@ in javascript we store hetrogenous value in array whatever datatype we store all
    
    it return the array without mutating the original array
 
+  2) reduce()
+    flatten an array means to convert the 3d or 2d array into a 
+    single dimensional array
         
   

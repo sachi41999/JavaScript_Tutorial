@@ -178,3 +178,28 @@ let newarray2 = arr2
   });
 
 console.log(newarray2);
+
+//reduce()
+//accumulator
+//current value
+//current index
+//src array
+const ar = [5, 6, 2];
+
+let sum = ar.reduce((acc, ele, ind, ar) => {
+  return (acc += ele);
+  //when we want another element in a array then we add here
+}, 8);
+console.log(sum);
+
+//how to flatten an array using reduce method
+const ar1 = [
+  ["zone1", "zone2"],
+  ["zone2", "zone3"],
+  ["zone4", "zone5"],
+];
+let flatarr = ar1.reduce((acc, ele, index, ar1) => {
+  return acc.concat(ele);
+});
+
+console.log(flatarr);
